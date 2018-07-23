@@ -1,0 +1,22 @@
+{
+  "name": "meetapet-jobs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "dependencies": {
+    "@types/jest": "^23.3.0",
+    "config": "^1.30.0",
+    "eslint": "^5.1.0",
+    "eslint-plugin-jest": "^21.18.0",
+    "ftp": "^0.3.10",
+    "jest": "^23.3.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node ./node_modules/.bin/jest",
+    "first-import": "node ./src/first-import-rgo.js",
+
+    "debug-test": "node --inspect-brk=9229 ./node_modules/.bin/jest",
+    "debug-first-import": "node --inspect-brk=9229 ./src/first-import-rgo.js"
+  }
+}
